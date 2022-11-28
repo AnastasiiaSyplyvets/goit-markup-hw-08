@@ -1,0 +1,54 @@
+
+.section-title {
+    color: var(--title-text-color);
+  }
+  /* banner ,баннер */
+  .banner {
+    background: var(--accent-color-third);
+    text-align: center;
+    padding-bottom: 200px;
+    padding-top: 200px;
+  }
+  .overlay {
+    height: 600px;
+    max-width: 1600px;
+    margin-left:auto;
+    margin-right:auto;
+    background-image: linear-gradient(to right,
+     rgba(47, 48, 58, 0.4),
+     rgba(47, 48, 58, 0.4)),
+     url("../css/banner.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+  .banner-title {
+    color: var(--accent-color-secondary);
+  
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 1.4;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    margin-top: 0;
+    margin-bottom: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 696px;
+    text-align: center;
+  }
+  
+  .button-order {
+    background: var(--accent-color-primary);
+    color: var(--accent-color-secondary);
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.9;
+    letter-spacing: 0.06em;
+    padding: 10px 32px;
+    cursor: pointer;
+  
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-color: #2196F3;
+  }

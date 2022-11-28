@@ -1,0 +1,173 @@
+/* Footer */
+
+
+.footer {
+    background-color: var(--accent-color-third);
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .logo_text--secondary {
+    color: var(--accent-color-secondary);
+  
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+  }
+  .address-list {
+    margin-top: 20px;
+    
+  }
+  .address-list-text {
+    color: var(--accent-color-secondary);
+    font-size: 14px;
+    line-height: 1.71;
+    font-style: normal;
+    letter-spacing: 0.03em;
+    margin-top: 0;
+    margin-bottom: 9px;
+  }
+  .address-list-contact {
+    color: rgba(255, 255, 255, 0.6);
+  
+    font-size: 14px;
+    line-height: 1.71;
+    font-style: normal;
+    letter-spacing: 0.03em;
+  }
+  .address-mail {
+    margin-bottom: 9px;
+  }
+  
+  /* Footer icons */
+  .footer-primary {
+    display:flex;
+  }
+  .footer-secondary{
+    margin-right: 70px;
+  }
+  .signup{
+    padding-top: 12px;
+  }
+  .signup-title {
+    text-transform: uppercase;
+    color: var(--accent-color-secondary);
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    margin-bottom: 20px;
+  }
+  .footer-icon {
+  fill: var(--accent-color-secondary);
+  }
+  
+  .footer-icons{
+    display:flex;
+      gap: 10px;
+      
+      transition: background-color  250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .footer-link {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius: 50%;
+    width:44px;
+    height: 44px;
+  
+    background-image: linear-gradient(
+      to bottom, 
+     rgba(255, 255, 255, 0.1) 10%, 
+     rgba(255, 255, 255, 0.1));
+  
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
+  &:hover,
+  &:focus{
+    background-color:var(--accent-color-primary);
+  }
+
+  }
+ 
+  
+  
+  /* Footer Form */
+  
+  .footer-form {
+    min-width: 570px;
+    margin-right: auto;
+    margin-left: 93px;
+    padding-top: 12px;
+  }
+
+  .email-field {
+    background-color: var(--accent-color-third);
+    padding: 0;
+  height: 50px;
+  width: 358px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 16px;
+  margin-right: 12px;
+  
+  color: rgba(255, 255, 255, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  }
+  
+  .email-field::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 16px;
+    letter-spacing: 0.03em;
+  }
+
+  .form-title {
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  color: var(--accent-color-secondary);
+  text-transform: uppercase;
+  
+  margin-bottom: 20px;
+  }
+  
+  .form-btn {
+    width: 200px;
+    height: 50px;
+    
+    background-color: var(--accent-color-primary);
+    color: var(--accent-color-secondary);
+  
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.06em;
+    text-align: center;
+  
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 28px;
+  
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border-color:#2196F3;
+  
+  cursor: pointer;
+  }
+  
+  
+  .field {
+    display: flex;
+  }
+  
+  .icon-form {
+    position: absolute;
+  top: 50%;
+  }
