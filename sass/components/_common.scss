@@ -18,15 +18,31 @@
   }
   img {
     display: block;
+    max-width:100%;
+    height:auto;
   }
   .container {
     margin-left: auto;
     margin-right: auto;
-    width: 1200px;
     padding-right: 15px;
     padding-left: 15px;
+    overflow: hidden;
+  
+
+    @media screen and (min-width: 480px) {
+      width: 480px;
+    }
+@media screen and (min-width: 768px) {
+  width: 768px;
+}
+
+@media screen and (min-width: 1200px) {
+  width: 1200px;
+}
   }
   
+
+
   h1,
   h2,
   h3 {
