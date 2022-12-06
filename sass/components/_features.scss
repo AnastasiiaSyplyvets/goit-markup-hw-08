@@ -46,6 +46,21 @@
       margin-right:30px;
     }
   }
+
+  .features-list .features__item:nth-child(2n){
+
+    @media screen and(max-width:1199px) {
+      margin-right:0;
+    }
+  }
+
+  .features-list .features__item:nth-child(n + 3) {
+
+    @media screen and (min-width:768px) and (max-width:1199px){
+      margin-bottom:0;
+    }
+   
+  }
   .features .features__title {
     color: var(--title-text-color);
     font-weight: 700;
